@@ -18,7 +18,7 @@ static let identifier = "FriendTableViewCell"
         super.awakeFromNib()
         // Initialization code
         self.selectionStyle = .none
-        viewFollow.layer.cornerRadius = 15
+        viewFollow.layer.cornerRadius = 23
         viewFollow.layer.borderWidth = 2
         viewFollow.layer.borderColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         

@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         let nib = UINib(nibName: FriendTableViewCell.identifier, bundle: nil)
         tableView.register(nib, forCellReuseIdentifier: FriendTableViewCell.identifier)
         self.tableView.contentInset = UIEdgeInsets(top: 2, left: 0, bottom: 14, right: 0)
-        self.tableView.rowHeight = 130
+        self.tableView.rowHeight = 148.5
     }
 }
 
